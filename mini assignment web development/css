@@ -1,0 +1,96 @@
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+    font-size: 1em;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-menu li {
+    margin-right: 5px;
+    float: left;
+}
+
+.main-menu li ul {
+    display: none;
+    position: absolute;
+}
+
+.main-menu li:hover ul {
+    display: block;
+}
+
+.main-menu li:hover li {
+    margin-right: 0;
+    float: none;
+}
+
+.main-menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.main-menu a:hover {
+    background-color: #555;
+}
+
+.main-menu > ul > li:last-child {
+    margin-right: 0px;
+}
+
+main {
+    width: 820px;
+    margin: 75px auto 0 auto;
+}
+
+article {
+    float: left;
+    width: 400px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.article-left {
+    margin-left: 0px;
+}
+
+.article-right {
+    margin-right: 0px;
+}
+
+.button {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    float: left;
+}
+
+.button-yellow {
+    color: #000;
+    background: #ffff00;
+}
+
+.button-red {
+    background-color: #ff0000;
+}
+
+
